@@ -1,5 +1,3 @@
 language: r
 cache: packages
-before_install:
-  - Rscript -e 'install.packages(c("roxygen2", "devtools"))'
-  - make
+description: find the euclidean values for two inputs and implement dijkstra's algorithm on a data set
