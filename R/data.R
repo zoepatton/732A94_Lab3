@@ -1,4 +1,12 @@
-#' Dataset for Dijkstra function
+#' Data for dikstra function
+#' 
+#' @title wiki_graph
+#' 
+#' @description dataset for the dijkstra function
+#' 
+#' @docType data
+#' 
+#' @usage data(wiki_graph)
 #' 
 #' @format A data frame with columns:
 #' \describe{
