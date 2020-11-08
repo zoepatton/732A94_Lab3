@@ -3,6 +3,9 @@
 \name{euclidean}
 \alias{euclidean}
 \title{Euclidean algorithm}
+\source{
+\href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
+}
 \usage{
 euclidean(x, y)
 }
@@ -13,10 +16,7 @@ euclidean(x, y)
 }
 \value{
 If the two inputs are integer or numeric, then the output
-  will be an integer, specifically the highest number that will divide the two inputs. Otherwise the function will stop and show an error stating the inputs need to be an integer or numeric. 
-
-  See
-  \url{https://en.wikipedia.org/wiki/Euclidean_algorithm} for more details.
+  will be an integer, specifically the highest number that will divide the two inputs. Otherwise the function will stop and show an error stating the inputs need to be an integer or numeric.
 }
 \description{
 \code{euclidean} returns the greatest common divisor of two integers.

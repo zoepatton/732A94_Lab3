@@ -10,9 +10,10 @@
 #' 
 #' @return If the two inputs are integer or numeric, then the output
 #'   will be an integer, specifically the highest number that will divide the two inputs. Otherwise the function will stop and show an error stating the inputs need to be an integer or numeric. 
-#'
-#'   See
-#'   \url{https://en.wikipedia.org/wiki/Euclidean_algorithm} for more details.
+#'   
+#' @export
+#' @source \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
+#'   
 
 
 euclidean <-
