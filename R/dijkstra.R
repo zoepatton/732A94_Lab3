@@ -14,7 +14,22 @@
 #'   
 
 dijkstra <- function(graph, init_node){
-  
+  if(!is.data.frame(graph)) {
+    stop("error: graph has to be a data frame")
+  }
+  if(ncol(graph) != 3){
+    stop("error: incorrect dataframe size")
+  }
+  if(!is.numeric(init_node) | length(init_node)!=1){
+  stop("error: init_node needs to be a scaler numeric")   
+  }
+  if(any(colnames(graph) != c("v1", "v2", "w"))){
+    stop("error: dataframe has to have v1, v2 and w column names")
+  }
+  if(!(init_node %in% unique(c(graph[ ,1], graph[ ,2])))) {
+    stop("error: init_node is not a value in the dataframe")
+  }
+
   Q <- c()                        #Vertex set
   w <- c()                        #Distances
   prev_v <- c()                   #Previous visited node
