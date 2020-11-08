@@ -4,9 +4,9 @@
 #'
 #' The algorithm is a method for computing the largest possible number that divides two numbers without a remainder. It works by replacing the larger number by its difference with the smaller of the two numbers and repeating this process until the two numbers become equal and the remainder is zero. 
 #'
-#' @param x a number or integer.
+#' @param x numeric.
 #' 
-#' @param y a number or integer.
+#' @param y numeric.
 #' 
 #' @return If the two inputs are integer or numeric, then the output
 #'   will be an integer, specifically the highest number that will divide the two inputs. Otherwise the function will stop and show an error stating the inputs need to be an integer or numeric. 

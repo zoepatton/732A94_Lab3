@@ -6,7 +6,7 @@
 #'
 #' @param graph a data.frame
 #' 
-#' @param init_node a number
+#' @param init_node numeric
 #' 
 #' @return a vector representing the shortest path to every other node from the starting node
 #' @export
